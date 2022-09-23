@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #141c2f;
+  display: flex;
+  align-items: center;
+}
+.properties {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  color: white;
+  border: 1px solid orange;
+}
