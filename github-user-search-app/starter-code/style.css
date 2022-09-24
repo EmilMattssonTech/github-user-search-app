@@ -62,7 +62,7 @@ body {
 
 .media-links {
   margin-top: 50px;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 .a-tag-container {
   display: flex;
@@ -82,4 +82,8 @@ p {
 
 .links {
   color: white;
+}
+
+svg {
+  width: 20px;
 }
