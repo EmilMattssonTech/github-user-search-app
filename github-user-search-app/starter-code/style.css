@@ -6,23 +6,34 @@
 
 body {
   background: #141c2f;
+  min-width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .properties {
-  width: 500px;
-  height: 500px;
-  margin: 0 auto;
+  width: 70vw;
+  height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.profile-container {
+}
 .navbar {
   display: flex;
   justify-content: space-between;
+  font-size: 25px;
+  margin-bottom: 200px;
+  margin-top: 0;
+  width: 50vw;
 }
 
 div {
   color: white;
   border: 1px solid orange;
+}
+
+.links {
+  color: white;
 }
