@@ -18,14 +18,14 @@ const getData = async () => {
   const getFollowing = document.getElementById("following");
 
   getInformation.addEventListener("click", () => {
-    getImage.innerHTML = data.avatar_url;
+    getImage.src = data.avatar_url;
     getUsername.innerHTML = data.login;
     getBio.innerHTML = `User bio: ${data.bio}`;
     getDate.innerHTML = `Last update: ${data.updated_at}`;
-    getRepo.innerHTML = data.repos_url;
+    getRepo.innerText = data.public_repos;
     getFollowers.innerHTML = `Followers: ${data.followers}`;
     getFollowing.innerHTML = `Following: ${data.following}`;
-    getTwitterProfile.innerHTML = `Titter handle: ${data.twitter_username}`;
+    getTwitterProfile.innerText = data.twitter_username;
     getCompany.innerHTML = `Company: ${data.company}`;
     getPlace.innerHTML = `User location: ${data.location}`;
     getWebsite.innerHTML = `Website ${data.website}`;
